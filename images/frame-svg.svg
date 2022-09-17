@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36">
+	<title>Frame-svg</title>
+	<style>
+		.s0 { fill: none;stroke: #da5d5d;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
+	</style>
+	<path id="Layer" class="s0" d="m5 1h8l4 10l-5 3c2.1 4.3 5.7 7.9 10 10l3-5l10 4v8c0 1.1-0.4 2.1-1.2 2.8c-0.7 0.8-1.7 1.2-2.8 1.2c-7.8-0.5-15.2-3.8-20.7-9.3c-5.5-5.5-8.8-12.9-9.3-20.7c0-1.1 0.4-2.1 1.2-2.8c0.7-0.8 1.7-1.2 2.8-1.2z"/>
+</svg>

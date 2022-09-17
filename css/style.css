@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    color: #fff;
+}
+body{
+    background-image: url(../images/unsplash_1w_qg4hxqxu.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.content_item{
+    width: 954px;
+    margin: 0 auto;
+    padding-top: 267px;
+    padding-bottom: 256px;
+}
+.block{
+    background-color: rgba(255, 255, 255, .2);
+    width: 954px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(8px);
+    padding-top: 45px;
+    padding-bottom: 34px;
+}
+.block_title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 43px;
+}
+.block_item{
+    margin-bottom: 55px;
+}
+.block_item h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.block_item h4,.block_section h6{
+    text-align: center;
+}
+.block_section h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+}
+.email{
+    margin-right: 24px;
+}
+.email,.phone{
+    width: 285px;
+    height: 129px;
+    background-color: #fff;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.vertical{
+    text-align: center;
+}
+.email_img,.phone_img{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background:#da5d5d;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    -webkit-mask-position: center center;
+}
+.vertical a{
+    padding-top: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+.email_vector{
+    -webkit-mask-image: url(../images/vector-svg.svg);
+}
+.phone_vector{
+    -webkit-mask-image: url(../images/frame-svg.svg);
+}
+.site_status{
+    /* display: none; */
+    position: absolute;
+    left: 50%;
+    bottom: 43px;
+    text-align: center;
+    transform: translateX(-50%);
+}
+.site_status h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 17px;
+}
